@@ -60,7 +60,7 @@ function operate(operator, num1, num2) {
         case '*':
             return num1 * num2;
         case '/':
-            return num2 === 0 ? "Error: Division by zero" : num1 / num2;
+            return num2 === 0 ? "Error: You can't do that!" : num1 / num2;
         default:
             return "Invalid operation";
     }
