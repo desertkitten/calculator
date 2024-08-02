@@ -1,4 +1,3 @@
-// script.js
 let displayValue = '';
 let firstNumber = null;
 let operator = null;
